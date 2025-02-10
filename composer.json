@@ -1,0 +1,16 @@
+{
+    "name": "ivanportillo/grpc-protos",
+    "description": "Paquete compartido con archivos generados por Protocol Buffers para gRPC.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "User\\": "src/User/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "grpc/grpc": "^1.33",
+        "google/protobuf": "^3.15"
+    }
+}
