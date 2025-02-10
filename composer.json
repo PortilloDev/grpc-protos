@@ -9,9 +9,9 @@
         }
     },
     "require": {
-        "php": ">=7.2",
+        "php": ">8.2",
         "grpc/grpc": "^1.33",
-        "google/protobuf": "^3.15"
+        "google/protobuf": "^4.29"
     },
     "minimum-stability": "stable"
 }
