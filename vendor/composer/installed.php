@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'ivanportillo/grpc-protos',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '0c71893192c09da31af0664ab59b5b08f491a957',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'google/protobuf' => array(
+            'pretty_version' => 'v4.29.3',
+            'version' => '4.29.3.0',
+            'reference' => 'ab5077c2cfdd1f415f42d11fdbdf903ba8e3d9b7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../google/protobuf',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'grpc/grpc' => array(
+            'pretty_version' => '1.57.0',
+            'version' => '1.57.0.0',
+            'reference' => 'b610c42022ed3a22f831439cb93802f2a4502fdf',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../grpc/grpc',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ivanportillo/grpc-protos' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '0c71893192c09da31af0664ab59b5b08f491a957',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
